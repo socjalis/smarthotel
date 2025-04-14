@@ -1,4 +1,5 @@
 services:
+  # Running in replica mode for transaction support
   mongodb:
     container_name: mongo
     image: mongo:8.0
